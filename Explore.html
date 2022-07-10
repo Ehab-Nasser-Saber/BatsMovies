@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Main Page Styling -->
+    <link rel="stylesheet" href="Css/Bmovies.css" />
+    <link rel="stylesheet" href="Css/Search.css" />
+    <!-- Our main stylesheet -->
+    <link rel="stylesheet" href="Css/Explore.css" />
+
+    <!-- Removing extra browser effects -->
+    <link rel="stylesheet" href="Css/normalize.css" />
+    <!-- Font awesome css library -->
+    <link rel="stylesheet" href="Css/all.min.css" />
+
+    <title>Explore</title>
+  </head>
+  <body>
+    <!-- start Header -->
+
+    <div class="darken"></div>
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="/Bmovies.html">Bats<span>movies</span></a>
+        </div>
+
+        <span class="icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+
+        <div class="sidebar">
+          <div class="logo-container">Bats<span>movies</span></div>
+          <ul>
+            <li>
+              <a href="/Explore.html?movie"
+                ><i class="fas fa-film"></i>Movies</a
+              >
+            </li>
+            <li>
+              <a href="/Explore.html?tv"
+                ><i class="fas fa-play-circle"></i>Series</a
+              >
+            </li>
+            <!-- <li>
+              <a href="/Explore.html?person"
+                ><i class="fas fa-users"></i>Actors</a
+              >
+            </li> -->
+          </ul>
+        </div>
+
+        <!-- <div class="login-Info">
+          <i class="fas fa-user"></i>
+          <a href="login.html">Login</a>
+          <a href="signUp.html">Sign Up</a>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- end Header  -->
+
+    <!-- start Main Container -->
+    <div class="mainContainer">
+      <div class="optionList horizontalSlider">
+        <span class="selected">Popular</span>
+        <span>Now Playing</span>
+        <span>Upcoming</span>
+        <span>Top Rated</span>
+      </div>
+
+      <div class="content">
+        <div class="item"></div>
+
+        <div class="item profile"></div>
+      </div>
+    </div>
+    <!-- end Main Container -->
+
+    <!-- Controls {Draggable Lists}, providing two classes, (HorizontalSlider and VerticalSlider) -->
+    <script src="SlidingLists.js"></script>
+
+    <!-- Controls {Navbar} functionalities -->
+    <script src="Header.js"></script>
+
+    <!-- Controls actions done in this page -->
+    <script src="Explore.js"></script>
+  </body>
+</html>
